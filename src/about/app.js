@@ -1,4 +1,12 @@
-var greetings = require('../utils/greetings');
-var drinking = require('../utils/drinking');
+// import
+var greetings = require('../utils/greetings'),
+    drinking = require('../utils/drinking');
+
+// render
 var message = greetings.sayHello() + ', ' + drinking.drink();
-alert(message);
+document.write('<div>about: ', message, '</div>');
+
+// export
+module.exports = {
+    message: message,
+};
