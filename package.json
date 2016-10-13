@@ -1,0 +1,22 @@
+{
+  "name": "webpack-multi-entry-demo",
+  "version": "1.0.0",
+  "description": "A demo of how to bundle multiple entries with Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeantimex/webpack-multi-entry-demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeantimex/webpack-multi-entry-demo/issues"
+  },
+  "homepage": "https://github.com/jeantimex/webpack-multi-entry-demo#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
